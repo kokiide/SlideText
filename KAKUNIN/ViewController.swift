@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func backButton(){
-        if number <= -1 {
+        if number <= 0 {
             label.text = device[0]
             number = -1
 
